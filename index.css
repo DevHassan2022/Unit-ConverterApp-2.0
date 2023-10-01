@@ -1,0 +1,150 @@
+/* ******Layout***********/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Inter;
+    background: #1C1C1C;
+}
+
+.container {
+    width: 550px;
+    height: 729px;
+    background: #F4F4F4;
+    margin: 0 auto;
+    }
+
+.hero-section {
+    height: 285px;
+    background-color: #0B4465;
+    padding: 34px 51px;
+    margin-bottom: 36px;
+    }
+    
+.hero-anime {
+    background: url('https://media.giphy.com/media/l0HlQvl7Ux2HJybHa/giphy.gif');
+    background-position: bottom;
+    background-size: 100%;
+}
+
+img {
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px
+} 
+  
+#convert-btn:disabled {
+    background: transparent;
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+    font-style: smooth;
+    text-shadow: 0 0 0px yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: none;
+    text-decoration: 5px underline overline white;
+}
+
+
+.card {
+    position: relative;
+    width: 500px;
+    height: 108px;
+    margin: 0 auto 24px auto;
+    padding-top: 31px ;
+    border-radius: 5px 0px 0px 0px;
+
+}
+
+.card,
+#convert-btn {
+    background: #FFF;
+    cursor: pointer;
+}
+
+/* *******Typography********* */
+.hero_headline {
+    color: #FFF;
+    font-size: 28px;
+    margin: 0px;
+    line-height: 38px;
+    letter-spacing: -0.84px;
+}
+
+#value-input-box {
+    margin-top: 30px; 
+    background:#010305;   
+    width: 117px;
+    height: 83px;
+    border-radius: 5px;
+    border: 2px solid #F0F9FF;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 58px;
+    font-weight: 800;
+    padding: 18px;
+    outline: none;
+    cursor: pointer;
+    }
+
+#convert-btn{
+    display: block;
+    margin: auto;
+    padding: 9px 27px;
+    border-radius: 5px;
+    border: none;
+    color: #3D3D3D;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 24px; 
+    margin-top: 27px;
+    outline: none;
+    box-shadow: 0 9px  black;
+}
+
+#convert-btn:active {
+     box-shadow: 0 5px  #666;
+     transform: translateY(4px);
+  }
+  
+.card--title {
+    margin: 0;
+    color: #064765;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px; 
+}
+
+.scale {
+    font-size: 60px;
+    margin-left: 20px;
+    }
+
+.card--text {
+    color: #353535;
+    font-size: 14px;
+    line-height: 20px; 
+    margin-top: 15px;
+}
+
+.highlight {
+    background: yellow;
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+}
+
+::placeholder {
+    color: #B5B5B5;
+}
+
+
+
+

@@ -1,0 +1,57 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+            
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <audio id="myAudio">
+            <source src="guitar.mp3"
+            type="audio/mpeg">
+        </audio>
+         <audio id="btnAudio">
+            <source src="button.mp3"
+            type="audio/mpeg">
+        </audio>
+        <div class="container">
+            <div class="hero-section" id="hero-section">
+                <h1 class="hero_headline">
+                    Metric/Imperial Unit Conversion
+                </h1>
+                <input
+                 type="text"
+                 id="value-input-box"
+                 name="value-input-box"
+                 maxlength="2"
+                 placeholder = "20"
+                />
+                <button id="convert-btn">Convert</button>
+          </div>
+            <div class="card horse">
+                <h2 class="card--title" >Length (Meter/Feet)<span id="scale" >📏
+                    <img src="https://media.giphy.com/media/qyjQsUt0p0TT2/giphy.gif"></span></h2>
+                <p class="card--text" id="length-el">
+                    20 meters = 65.616 feet | 20 feet = 6.096 meters
+                </p>
+                <!-- <img src="https://media.giphy.com/media/WtOkaikiwaR87ZvAFH/giphy.gif" > -->
+            </div>
+            <div class="card">
+                <h2 class="card--title" >Volume (Liters/Gallons)<span id="milk">🥛
+                    <img src="https://media.giphy.com/media/h6x0ROdzJy4TKyUu1b/giphy-downsized-large.gif"></span>  </h2>          
+                <p class="card--text" id="volume-el">
+                   20 liters = 5.284 gallons | 20 gallons = 75.708 liters
+                </p> 
+            </div>
+            <div class="card">
+                <h2 class="card--title">Mass (Kilograms/Pounds)<span id="man">🏋🏼
+                    <img src="https://media.giphy.com/media/gfT6lcOsOBeanppUUR/giphy.gif"></span></h2>
+                <p class="card--text" id="weight-el">
+                   20 kilos = 44.092 pounds | 20 pounds = 9.072 kilos  
+                </p>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
